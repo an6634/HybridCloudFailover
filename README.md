@@ -91,3 +91,14 @@ The following screenshots demonstrate the project implementation:
 ## **6. Conclusion**
 
 This project successfully demonstrates a hybrid cloud failover strategy between Azure and AWS. By utilizing DuckDNS, Azure Load Balancer, and AWS Application Load Balancer, the project ensures high availability and seamless failover. The manual DNS-based failover ensures application continuity, and the project can be enhanced by automating the failover process using monitoring tools or scripts.
+
+# Backend Tracker
+
+## Next Steps
+- Automate resource deployment with Terraform or PowerShell scripts.
+- Integrate monitoring tools like Azure Monitor or AWS CloudWatch for real-time alerts.
+- Enhance failover with automated DNS updates via API calls to DuckDNS.
+
+## Tasks Pending Validation
+- Verify load balancer behavior during automated failover testing.
+- Test scalability under simulated high traffic.
