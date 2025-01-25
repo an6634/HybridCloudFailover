@@ -15,7 +15,7 @@ This project demonstrates a hybrid cloud solution that ensures business continui
 ## **2. Project Summary**
 
 - **🔎 Brief Description**:  
-  This project implements a hybrid cloud failover solution using Azure and AWS. It highlights business continuity, scalability, and redundancy by leveraging dynamic DNS, cloud load balancers, and web servers.
+  This project implements a hybrid cloud failover solution using Azure and AWS. By leveraging dynamic DNS, cloud load balancers, and web servers, it highlights business continuity, scalability, and redundancy.
 
 - **🛠️ Environments Used**:  
   - **Azure**:  
@@ -95,7 +95,7 @@ This project demonstrates a hybrid cloud solution that ensures business continui
 
 - **Azure**:  
   - Load Balancer for traffic distribution.  
-  - Virtual Machine for hosting the web application.
+  - Virtual Machine is used to host the web application.
 
 - **AWS**:  
   - Application Load Balancer for failover support.  
@@ -108,4 +108,4 @@ This project demonstrates a hybrid cloud solution that ensures business continui
 
 ## **6. Conclusion** 🎯
 
-This project successfully demonstrates a hybrid cloud failover strategy between Azure and AWS. By utilizing DuckDNS, Azure Load Balancer, and AWS Application Load Balancer, the project ensures high availability and seamless failover. The manual DNS-based failover ensures application continuity, and the project can be enhanced by automating the failover process using monitoring tools or scripts.
+This project successfully demonstrates a hybrid cloud failover strategy between Azure and AWS. The project ensures high availability and seamless failover by utilizing DuckDNS, Azure Load Balancer, and AWS Application Load Balancer. The manual DNS-based failover ensures application continuity, and the project can be enhanced by automating the failover process using monitoring tools or scripts.
