@@ -32,20 +32,38 @@ This project demonstrates a hybrid cloud solution that ensures business continui
 
 ## **3. Media (Images and/or Video)** 📸
 
-The following screenshots demonstrate the project implementation:
-
 ### **Azure Environment**
-1. 📄 `Azure_Load_Balancer.png`: Configuration details of the Azure Load Balancer.
-2. 🗂️ `Azure_Resource_Group_Overview.png`: Overview of all Azure resources.
-3. 🖥️ `Azure_VM_Details.png`: Azure VM details, including public IP and network configuration.
-4. 🌐 `Failover_To_Azure.png`: DuckDNS subdomain pointing to Azure, showing IIS page with "Welcome to Azure."
+
+**Caption: Configuration details of the Azure Load Balancer.**  
+![Azure Load Balancer](Azure_Load_Balancer.png)
+
+**Caption: Overview of all Azure resources.**  
+![Azure Resource Group](Azure_Resource_Group_Overview.png)
+
+**Caption: Azure VM details, including public IP and network configuration.**  
+![Azure VM Details](Azure_VM_Details.png)
+
+**Caption: DuckDNS subdomain pointing to Azure, showing IIS page with "Welcome to Azure."**  
+![Failover to Azure](Failover_To_Azure.png)
+
+---
 
 ### **AWS Environment**
-1. 📄 `AWS_Load_Balancer.png`: Configuration details of the AWS Application Load Balancer.
-2. 🗂️ `AWS_VPC_Details.png`: VPC details, including CIDR block and subnets.
-3. 🖥️ `AWS_EC2_Instance_Details.png`: EC2 instance details, including public IP and instance configuration.
-4. ✅ `AWS_Target_Group_Healthy.png`: Target group with EC2 instance marked as healthy.
-5. 🌐 `Failover_To_AWS.png`: DuckDNS subdomain pointing to AWS, showing IIS page with "Welcome to AWS."
+
+**Caption: Configuration details of the AWS Application Load Balancer.**  
+![AWS Load Balancer](AWS_Load_Balancer.png)
+
+**Caption: VPC details, including CIDR block and subnets.**  
+![AWS VPC Details](AWS_VPC_Details.png)
+
+**Caption: EC2 instance details, including public IP and instance configuration.**  
+![AWS EC2 Instance](AWS_EC2_Instance_Details.png)
+
+**Caption: Target group with EC2 instance marked as healthy.**  
+![AWS Target Group Healthy](AWS_Target_Group_Healthy.png)
+
+**Caption: DuckDNS subdomain pointing to AWS, showing IIS page with "Welcome to AWS."**  
+![Failover to AWS](Failover_To_AWS.png)
 
 ---
 
